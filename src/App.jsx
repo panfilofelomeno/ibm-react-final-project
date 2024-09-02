@@ -13,9 +13,9 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/products" element={<ProductsPage />} />
-          <Route path="/cart" element={<CartPage />} /> 
+          <Route path="/ibm-react-final-project/" element={<HomePage />} />
+          <Route path="/ibm-react-final-project/products" element={<ProductsPage />} />
+          <Route path="/ibm-react-final-project/cart" element={<CartPage />} /> 
         </Routes>
       </Router>
     </Provider>

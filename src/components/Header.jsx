@@ -9,8 +9,8 @@ const Header = () => {
     <header>
       <h1>Houseplant Store</h1>
       <nav>
-        <Link to="/products">Products</Link>
-        <Link to="/cart">Cart ({totalItems})</Link>
+        <Link to="/ibm-react-final-project/products">Products</Link>
+        <Link to="/ibm-react-final-project/cart">Cart ({totalItems})</Link>
       </nav>
     </header>
   );

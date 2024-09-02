@@ -27,7 +27,7 @@ const CartPage = () => {
       </div>
       <h3>Total: ${totalPrice}</h3>
       <button>Checkout (Coming Soon)</button>
-      <Link to="/products">
+      <Link to="/ibm-react-final-project/products">
         <button>Continue Shopping</button>
       </Link>
     </div>
