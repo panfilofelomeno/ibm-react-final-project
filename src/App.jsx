@@ -13,9 +13,9 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route exact path="/" element={<HomePage />} />
-          <Route exact path="/products" element={<ProductsPage />} />
-          <Route exact path="/cart" element={<CartPage />} /> 
+          <Route path="/" element={<HomePage />} />
+          <Route path="/products" element={<ProductsPage />} />
+          <Route path="/cart" element={<CartPage />} /> 
         </Routes>
       </Router>
     </Provider>
